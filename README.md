@@ -3,7 +3,7 @@
 
 Swear is a *Very Cursed* cross-platform concurrency library for Gleam, built with promises, and targeting modern browsers, node, deno, and the BEAM. Its definitely not the sort of thing you would to get mixed up in!
 
-**WARNING** This package is incompatible with OTP and the standard sweet of tools built on top of it. Using this package would mean sacrificing most of whats good about the BEAM.
+**WARNING** This package is incompatible with OTP and the standard sweet of tools built on top of it. Using this package would mean sacrificing most of whats good about the BEAM for slightly improved performance on JavaScript. It a faustian bargan if ever you've seen one.
 
 ## What possessed you to make this?
 Promises are the most Chaotic-Evil of concurrency primitives. They suck but they're really simple; simple enough to be implemented within Erlang. Is emulating JavaScript's promises on the BEAM the right way to do concurrency? Almost certainly not! In-fact we think a downright terrible idea! But it is tempting... especially when you realize that unlike JS, gleam has excellent syntax for managing deeply nested functions of the sort found only in the seventh circle of Callback-Hell.
