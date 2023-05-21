@@ -1,0 +1,10 @@
+name = "swear"
+version = "1.0.0"
+description = "The cursed concurrency utility for Gleam"
+licences = ["MIT"]
+
+[dependencies]
+gleam_stdlib = "~> 0.28"
+
+[dev-dependencies]
+gleeunit = "~> 0.10"
